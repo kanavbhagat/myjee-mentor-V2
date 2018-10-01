@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    background: #4883FF;
+}
+a {
+    text-decoration: none;
+}
+
+a:visited, 
+a:active {
+    text-decoration: none;
+}
+
+.logo-img {
+    display: inline-block;
+    width: 20%;
+}
+
+.text {
+    padding: 60px;
+	color:white;
+	text-align:center;
+	display: inline-block;
+
+}
+.text p{
+	font-weight: bold;
+	font-size: 2vw;
+	margin-right: 3%;
+	background-color:#4883FF; 
+}
+
+
+.footer {
+	color: black;
+	height: auto;
+	width: 60%;
+	background-color: #4883FF;
+	text-align: center;
+	color: white;
+    margin: 0 auto;
+    margin-top: 5vh;
+    padding: 5em 10em;
+    border-radius: 5px;
+    margin-bottom: 5em;
+}
+
+
+.hero-img {
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+
+.button {
+  background-color: #f4511e;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;  
+}
+
+.apply-btn {
+    color: #4883FF;
+    background: white;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 2em 0;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+}
+
+.apply-btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .image img {
+        margin-top:10%;
+        margin-left: 15%;
+        margin-right: 55%;
+        height:60%;
+        width: 70%;
+    }
+}
