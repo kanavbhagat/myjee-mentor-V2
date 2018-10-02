@@ -16,7 +16,16 @@
 	font-weight: bold;
 	font-size: 2vw;
 	margin-right: 3%;
-	background-color:#4883FF; 
+	 
+    
+}
+
+h1{
+    font-family: arial;
+    font-size:2vw;
+    text-align: center;
+    width:100%;
+    margin-left: 7vw;
 }
 
 
@@ -24,21 +33,22 @@
 	color: black;
 	height: auto;
 	width: 100%;
-	background-color: #4883FF;
+	background-color: #1B9CFC;
 	text-align: center;
 	color: white;
 	font-size: 2vw;
-	font-family: 'Bookman';
+	font-family: 'arial';
 	display: inline-block;
-	margin-top: 40%;
+	margin-top: 40vw;
+    border:0px;
 
 }
 
 .image img{
-	margin-top: 5%;
+	margin-top: 10vw;
 	margin-left: 30%;
 	height:30%;
-	width:40%;
+	width:40vw;
 }
 
 
@@ -46,6 +56,8 @@
   background-color: #f4511e;
   border: none;
   color: white;
+    margin-top:5vw;
+    outline:none;
   padding: 16px 32px;
   text-align: center;
   font-size: 2vw;
@@ -56,17 +68,29 @@
   text-decoration: none;
   cursor: pointer;
   max-width: 100%;
+  border-radius: 20px;
+    box-shadow: 0px 15px 40px 7px #333;
+    margin-left: 13vw;
 
+
+}
+.button:hover{
+    background-color:black;
+    
 }
 
 a:link, a:visited {
-    background-color: #4883FF;
-    border:solid;
+    background-color:#f4511e ;
+    border:2px solid;
     color: white;
-    padding: 14px 25px;
+    padding: 2vw 8vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+a:hover{
+    color:black;
+    background-color: white;
 }
 
 @media only screen and (max-width: 600px) {
