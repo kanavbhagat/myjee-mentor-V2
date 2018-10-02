@@ -1,48 +1,50 @@
-.main{
-	height: 550px;
-	width : 100%;
+.body-bg {
+  background-color: #7fa8ff;
 }
 
-.text{
-	color:white;
-	font-size:1.5vw;
-	text-align:center;
-	font-family:'Bookman';
-	display: inline-block;
-	margin-left: 7%;
-	margin-top: 10%;
-}
-.text p{
-	font-weight: bold;
-	font-size: 2vw;
-	margin-right: 3%;
-	background-color:#4883FF; 
+.main {
+  height: 550px;
+  width: 100%;
 }
 
-
-.footer{
-	color: black;
-	height: auto;
-	width: 100%;
-	background-color: #4883FF;
-	text-align: center;
-	color: white;
-	font-size: 2vw;
-	font-family: 'Bookman';
-	display: inline-block;
-	margin-top: 40%;
-
+.hero-banner {
+  color: white;
+  font-size: 1.5vw;
+  text-align: center;
+  font-family: 'Bookman';
+  display: inline-block;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+.hero-banner p {
+  font-weight: bold;
+  font-size: 2vw;
+  margin-right: 3%;
+  background-color: #4883ff;
 }
 
-.image img{
-	margin-top: 5%;
-	margin-left: 30%;
-	height:30%;
-	width:40%;
+.footer {
+  color: black;
+  height: auto;
+  width: 100%;
+  background-color: #4883ff;
+  text-align: center;
+  color: white;
+  font-size: 2vw;
+  font-family: 'Bookman';
+  display: inline-block;
+  margin-top: 40%;
+  padding-bottom: 5%;
 }
 
+.image img {
+  margin-top: 5%;
+  margin-left: 30%;
+  height: 30%;
+  width: 40%;
+}
 
-.button {
+.btn-apply-for {
   background-color: #f4511e;
   border: none;
   color: white;
@@ -56,25 +58,25 @@
   text-decoration: none;
   cursor: pointer;
   max-width: 100%;
-
 }
 
-a:link, a:visited {
-    background-color: #4883FF;
-    border:solid;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+.btn-apply:link,
+.btn-apply:visited {
+  background-color: #4883ff;
+  border: solid;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 600px) {
-    .image img {
-        margin-top:10%;
-        margin-left: 15%;
-        margin-right: 55%;
-        height:60%;
-        width: 70%;
-    }
+  .image img {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 55%;
+    height: 60%;
+    width: 70%;
+  }
 }
