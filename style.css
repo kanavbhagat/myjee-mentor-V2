@@ -10,7 +10,7 @@
 	font-family:'Bookman';
 	display: inline-block;
 	margin-left: 7%;
-	margin-top: 10%;
+	margin-top: 20px;
 }
 .text p{
 	font-weight: bold;
@@ -19,6 +19,9 @@
 	background-color:#4883FF; 
 }
 
+#h{
+	font-family:Calibri;
+}
 
 .footer{
 	color: black;
